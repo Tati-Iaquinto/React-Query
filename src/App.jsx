@@ -17,6 +17,7 @@ function App() {
         <Route path="/" element={<Issues />} />
         <Route path="/add" element={<AddIssue />} />
         <Route path="/issue/:number" element={<Issue />} />
+        
       </Routes>
     </div>
   );
